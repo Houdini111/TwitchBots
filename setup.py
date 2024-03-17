@@ -7,5 +7,6 @@ setup(
    author='Houdini111',
    author_email='xela.notnef@gmail.com',
    packages = find_packages(),
-   install_requires=['twitchio', 'pyyaml'], #external packages as dependencies
+   install_requires=['twitchio >= 2.9.0', 'PyYAML >= 5.4.1', 'setuptools >= 69.2.0'], #external packages as dependencies
+   include_package_data=True
 )

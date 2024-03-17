@@ -14,3 +14,4 @@ class CustomizedBot(commands.Bot):
 	#   Creator contact info
 	# Creator command (!creator, !contact)
 	# Default data as json config file
+	# Use SecretStorage
